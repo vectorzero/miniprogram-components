@@ -1,0 +1,14 @@
+<view class="lds-spinner">
+	<view></view>
+	<view></view>
+	<view></view>
+	<view></view>
+	<view></view>
+	<view></view>
+	<view></view>
+	<view></view>
+	<view></view>
+	<view></view>
+	<view></view>
+	<view></view>
+</view>
