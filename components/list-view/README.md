@@ -39,7 +39,7 @@
   <view class="search-box"></view>
   <view class="list-view">
     <list-view id="list" pageField="pageNum" limitField="pageSize" resultObj="{{resultObj}}" bind:setList="setList" bind:getList="getList">
-      <view>{{item.name}}</view>
+      <view wx:for="{{list}}" wx:key="index">{{item.name}}</view>
     </list-view>
   </view>
 </view>
